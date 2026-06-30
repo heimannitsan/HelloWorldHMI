@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module version="1">
+    <Name>HelloWorldHMIUserDefinedModule</Name>
+    <Company></Company>
+    <Version>0.0.0</Version>
+    <MinUpgradableVersion>0.0.0</MinUpgradableVersion>
+    <Binding name="Net" />
+
+    <Namespaces/>
+
+    <Dependencies>
+        <Core version="0.0.0" />
+        <Binding version="0.0.0" />
+        <Module name="FTOptix.HMIProject.Net" version="0.0.0" />
+    </Dependencies>
+
+    <Nodes/>
+
+    <TypeMappings>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="HelloWorldHMI" guid="ddb115358e384f76bc27bf29808299da" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="HelloWorldHMI" guid="7f86072b25c04759957ff1f43831af3a" />
+            </TargetType>
+        </TypeMapping>
+    </TypeMappings>
+</Module>

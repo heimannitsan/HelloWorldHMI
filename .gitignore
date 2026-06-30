@@ -1,0 +1,8 @@
+# FT Optix build outputs
+BinHMI/
+PackageCache/
+*.bak
+
+# OS
+Thumbs.db
+.DS_Store

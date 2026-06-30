@@ -1,0 +1,79 @@
+Name: Model
+Type: ModelCategoryFolder
+Children:
+- Name: Status
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "Waiting for click..."
+- Name: M1_udt
+  Type: BaseObjectType
+  Children:
+  - Name: Sts
+    Type: BaseObjectType
+    Children:
+    - Name: OK
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: MSO_Enable
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OkToMove
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: InMAMPosition
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: MotionCMDFault
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: ActualPos
+      Type: BaseDataVariableType
+      DataType: Float
+    - Name: ERR_Code
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: ERR_Type
+      Type: BaseDataVariableType
+      DataType: String
+  - Name: Cmd
+    Type: BaseObjectType
+    Children:
+    - Name: Servo_ON
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: Go_Pos
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: Fault_Rst
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: Stop_All
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: Jog_Fw
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: Jog_Bw
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: Do_Home
+      Type: BaseDataVariableType
+      DataType: Boolean
+  - Name: Data
+    Type: BaseObjectType
+    Children:
+    - Name: MAMPosition
+      Type: BaseDataVariableType
+      DataType: Float
+    - Name: MAMSpeed
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 100.0
+    - Name: MAMAccel
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 500.0
+    - Name: MAMDecel
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 500.0
