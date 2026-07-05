@@ -107,6 +107,7 @@ Children:
   - Name: VirtualKeyboard
     Type: BaseDataVariableType
     DataType: VirtualKeyboardEngineTypeEnum
+    Value: 1
   - Name: StartWindow
     Type: NodePointer
     DataType: NodeId
@@ -164,7 +165,7 @@ Children:
     - Name: Panel
       Type: NodePointer
       DataType: NodeId
-      Value: {"IdType":2,"Id":"7f86072b25c04759957ff1f43831af3a","Namespace":7}
+      Value: "/Objects/HelloWorldHMI/UI/Screens/Screen1"
       Children:
       - Name: Kind
         Type: PropertyType

@@ -43,21 +43,27 @@ Children:
       Type: BaseDataVariableType
       DataType: Boolean
     - Name: Go_Pos
+      Id: g=1ad24e2daecd19ef386debe064b85371
       Type: BaseDataVariableType
       DataType: Boolean
     - Name: Fault_Rst
+      Id: g=9a796a671511f78004fdccd63aea1fca
       Type: BaseDataVariableType
       DataType: Boolean
     - Name: Stop_All
+      Id: g=b52988110c6eb1175956bcb847080a55
       Type: BaseDataVariableType
       DataType: Boolean
     - Name: Jog_Fw
+      Id: g=3e124ba2ed88114e4c0855ded9308a95
       Type: BaseDataVariableType
       DataType: Boolean
     - Name: Jog_Bw
+      Id: g=1a6d76c6012df8705532a6ba9c12aba7
       Type: BaseDataVariableType
       DataType: Boolean
     - Name: Do_Home
+      Id: g=fdcba10abce4f93d01aac1194218686d
       Type: BaseDataVariableType
       DataType: Boolean
   - Name: Data
