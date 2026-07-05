@@ -11,7 +11,8 @@ namespace HelloWorldHMI
     {
         private static readonly int namespaceIndex = NamespaceMapProvider.GetNamespaceIndex("HelloWorldHMI");
         public static readonly NodeId MainWindow = new NodeId(namespaceIndex, new Guid("ddb115358e384f76bc27bf29808299da"));
-        public static readonly NodeId AxisFaceplate = new NodeId(namespaceIndex, new Guid("7f86072b25c04759957ff1f43831af3a"));
+        public static readonly NodeId Screen1 = new NodeId(namespaceIndex, new Guid("db792ee1de5e9322b49845930f8a4ea4"));
+        public static readonly NodeId AxisFaceplate = new NodeId(namespaceIndex, new Guid("964d347250eba5d40931a560970901f0"));
     }
 
     public static class VariableTypes

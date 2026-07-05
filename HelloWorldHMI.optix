@@ -67,15 +67,15 @@ Project:
    Module: FTOptix.NativeUI.Net
    Version: 3.3
  Statistics:
-  TotalNodeCount: 684
-  Objects: 143
-  ObjectTypes: 2
-  Variables: 539
+  TotalNodeCount: 812
+  Objects: 169
+  ObjectTypes: 3
+  Variables: 640
   VariableTypes: 0
   DataTypes: 0
   Methods: 0
-  References: 1
+  References: 23
   ReferenceTypes: 0
-  Files: 22
+  Files: 23
  Nodes:
  - File: Nodes/HelloWorldHMI.yaml

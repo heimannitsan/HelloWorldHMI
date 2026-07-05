@@ -24,7 +24,12 @@
         </TypeMapping>
         <TypeMapping>
             <TargetType>
-                <NodeId namespaceUri="HelloWorldHMI" guid="7f86072b25c04759957ff1f43831af3a" />
+                <NodeId namespaceUri="HelloWorldHMI" guid="db792ee1de5e9322b49845930f8a4ea4" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="HelloWorldHMI" guid="964d347250eba5d40931a560970901f0" />
             </TargetType>
         </TypeMapping>
     </TypeMappings>

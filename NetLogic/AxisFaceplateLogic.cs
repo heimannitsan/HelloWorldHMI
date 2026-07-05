@@ -10,7 +10,7 @@ public class AxisFaceplateLogic : BaseNetLogic
         if (alias == null) return null;
         var axisId = (NodeId)alias.Value;
         if (axisId == null || axisId.IsEmpty) return null;
-        var axisNode = InformationModel.Get(axisId);
+        var axisNode = Owner.Context.GetNode(axisId);
         return axisNode?.GetVariable(relativePath);
     }
 

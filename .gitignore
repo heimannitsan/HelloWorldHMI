@@ -6,3 +6,20 @@ PackageCache/
 # OS
 Thumbs.db
 .DS_Store
+
+/*
+!*.gitignore
+!*.gitattributes
+!*.optix
+!*.optix.design
+!*.optixt
+!Nodes/
+!ProjectFiles/
+!NetLogic/
+!DesignTimeNodes/
+ProjectFiles/NetSolution/*.vs
+ProjectFiles/NetSolution/bin
+ProjectFiles/NetSolution/obj
+ProjectFiles/NetSolution/Private
+ProjectFiles/NetSolution/*.references
+ProjectFiles/UserDefinedModule.xml

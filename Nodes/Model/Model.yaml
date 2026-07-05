@@ -39,6 +39,7 @@ Children:
     Type: BaseObjectType
     Children:
     - Name: Servo_ON
+      Id: g=e0f790ba453bb03d0e044e867909ae36
       Type: BaseDataVariableType
       DataType: Boolean
     - Name: Go_Pos
@@ -77,3 +78,6 @@ Children:
       Type: BaseDataVariableType
       DataType: Float
       Value: 500.0
+- Name: Variable1
+  Type: BaseDataVariableType
+  DataType: Int32
