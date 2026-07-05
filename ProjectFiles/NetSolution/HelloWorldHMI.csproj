@@ -16,7 +16,4 @@
     <ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>None</ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>
   </PropertyGroup>
   <Import Project="HelloWorldHMI.references"/>
-  <ItemGroup>
-    <Compile Include="..\..\NetLogic\AxisFaceplateLogic.cs" />
-  </ItemGroup>
 </Project>

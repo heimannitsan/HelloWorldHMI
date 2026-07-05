@@ -1,0 +1,43 @@
+Name: 'Program:Y_AXIS_PROGRAM'
+Type: FolderType
+Children:
+- Name: MAOC_Enable_W
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Y_AXIS_PROGRAM.MAOC_Enable_W"
+- Name: OUTPUTS_CARD_PLACE_HOLDER
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Y_AXIS_PROGRAM.OUTPUTS_CARD_PLACE_HOLDER"
+- Name: Pos_Lim_High
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Y_AXIS_PROGRAM.Pos_Lim_High"
+- Name: Pos_Lim_Low
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Y_AXIS_PROGRAM.Pos_Lim_Low"
+- Name: update_mam
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Y_AXIS_PROGRAM.update_mam"

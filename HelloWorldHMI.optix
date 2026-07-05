@@ -66,16 +66,32 @@ Project:
    Uri: 'urn:FTOptix:NativeUI:Net'
    Module: FTOptix.NativeUI.Net
    Version: 3.3
+  17:
+   Uri: 'urn:FTOptix:RAEtherNetIP'
+   Module: FTOptix.RAEtherNetIP
+   Version: 7.0
+  18:
+   Uri: 'urn:FTOptix:RAEtherNetIP:Net'
+   Module: FTOptix.RAEtherNetIP.Net
+   Version: 3.2
+  19:
+   Uri: 'urn:FTOptix:CommunicationDriver'
+   Module: FTOptix.CommunicationDriver
+   Version: 3.0
+  20:
+   Uri: 'urn:FTOptix:CommunicationDriver:Net'
+   Module: FTOptix.CommunicationDriver.Net
+   Version: 4.0
  Statistics:
-  TotalNodeCount: 812
-  Objects: 169
+  TotalNodeCount: 8891
+  Objects: 192
   ObjectTypes: 3
-  Variables: 640
-  VariableTypes: 0
-  DataTypes: 0
+  Variables: 8670
+  VariableTypes: 13
+  DataTypes: 13
   Methods: 0
-  References: 23
+  References: 29
   ReferenceTypes: 0
-  Files: 23
+  Files: 31
  Nodes:
  - File: Nodes/HelloWorldHMI.yaml

@@ -7,6 +7,8 @@ using System.Linq;
 using UAManagedCore.Logging;
 using FTOptix.NetLogic;
 using FTOptix.Core;
+using FTOptix.RAEtherNetIP;
+using FTOptix.CommunicationDriver;
 #endregion
 
 public class AlarmIconNotificationLogic : BaseNetLogic
